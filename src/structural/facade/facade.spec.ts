@@ -1,8 +1,5 @@
 import { Consumer } from './consumer.js';
 import { Product } from './product.js';
-import { BoletoPayment } from './sales/boleto-payment.js';
-import { Order } from './sales/order.js';
-import { OrderEmail } from './sales/order-email.js';
 import { SaleFacade } from './sales/sale-facade.js';
 
 describe('Facade Pattern', () => {
